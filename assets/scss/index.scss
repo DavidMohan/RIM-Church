@@ -5,13 +5,12 @@
 .header {
   background-image: url(/assets/img/img2.jpg);
   background-repeat: no-repeat;
-  background-position-y: 30%;
+  background-position-x: 30%;
+  // background-attachment: fixed;
   background-size: cover;
   height: 100vh;
 
   .navbar {
-    // margin: 0 200px;
-
     .navbar-brand {
       font-weight: 600;
       font-size: 30px;
@@ -32,30 +31,82 @@
     height: 90vh;
     text-align: center;
 
+    // &__one {
+    //   font-size: 25px;
+    //   font-weight: 300;
+    // }
+    
+    // &__two {
+    //   font-size: 40px;
+    //   font-weight: bold;
+    // }
+  }
+}
+
+@media screen and (min-width: 0px) {
+  .navbar {
+    margin: 0 20px;
+  }
+  
+  .welcome-text {
     &__one {
-      font-size: 25px;
+      font-size: 22px;
       font-weight: 300;
     }
-    
     &__two {
-      font-size: 40px;
+      font-size: 30px;
       font-weight: bold;
     }
   }
 }
 
-@media screen and (max-width: 426px) {
-  .mynav-bar {
-    margin: 0 20px;
+@media screen and (min-width :542px) {
+  .navbar {
+    margin: 0 60px;
   }
+}
+
+@media screen and (min-width :992px) {
+  .navbar {
+    margin: 0 150px;
+  }
+
   .welcome-text {
-
     &__one {
-      font-size: 15px;
+      font-size: 25px;
+      font-weight: 300;
     }
-
     &__two {
-      font-size: 30px;
+      font-size: 40px;
+      font-weight: bold;
+    }
+  }
+  
+  .header {
+    background-position-y: 20%;
+  }
+}
+
+/* Section 2 // Cards */
+.rim-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mycard {
+    overflow: hidden;
+    width: 300px;
+
+    &__img {
+      width: 300px;
+      height: 300px;
+      overflow: hidden;
     }
   }
 }
