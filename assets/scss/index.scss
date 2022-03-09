@@ -1,3 +1,61 @@
-.my-nav-bar {
-  margin: 0 200px;
+* {
+  font-family: 'poppins';
+}
+
+.header {
+  background-image: url(/assets/img/img2.jpg);
+  background-repeat: no-repeat;
+  background-position-y: 30%;
+  background-size: cover;
+  height: 100vh;
+
+  .navbar {
+    // margin: 0 200px;
+
+    .navbar-brand {
+      font-weight: 600;
+      font-size: 30px;
+
+      &__church {
+        color: transparent;
+        -webkit-text-stroke-width: 0.3px;
+        -webkit-text-stroke-color: white;
+      }
+    }
+  }
+
+  .welcome-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    text-align: center;
+
+    &__one {
+      font-size: 25px;
+      font-weight: 300;
+    }
+    
+    &__two {
+      font-size: 40px;
+      font-weight: bold;
+    }
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .mynav-bar {
+    margin: 0 20px;
+  }
+  .welcome-text {
+
+    &__one {
+      font-size: 15px;
+    }
+
+    &__two {
+      font-size: 30px;
+    }
+  }
 }
