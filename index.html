@@ -14,40 +14,153 @@
   <link rel="stylesheet" href="./assets/css/aos.css">
   <!-- Custom CSS! -->
   <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 
 <body>
 
-  <!-- Section 1 // Welcome Content -->
-  <div class="header">
-    <header>
-      <div class="container-fluid mx-5">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a href="#" class="navbar-brand">RIM Church</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav_bar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="mynav_bar">
-            <div class="navbar-nav ms-auto">
-              <a href="#" class="nav-link px-lg-3">Home</a>
-              <a href="#" class="nav-link px-lg-3">About</a>
-              <a href="#" class="nav-link px-lg-3">Events</a>
-              <a href="#" class="nav-link px-lg-3">Contact</a>
+  <!-- Header // Section 1 // Navbar and Welcome Text -->
+  <header id="parallax">
+    <nav class="navbar navbar-expand-lg pt-4 navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">RIM CHURCH</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mybar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mybar">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link px-md-4 active" href="#">Home</a>
+            <a class="nav-link px-md-4" href="#">About</a>
+            <a class="nav-link px-md-4" href="#">Events</a>
+            <a class="nav-link px-md-4" href="#">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="welcome-content">
+      <div class="welcome-content_text">
+        <h4>Welcome to</h4>
+        <h2>Rejoice International Ministries</h2>
+      </div>
+    </div>
+  </header>
+
+  <!-- Cards // Section 2 -->
+  <div class="container-fluid">
+    <div class="cards">
+      <div class="row">
+        <div class="col-10 col-lg-3 mb-4">
+          <div class="my-card">
+            <div class="my-card-img">
+              <img src="./assets/img/img4.jpg" alt="">
+            </div>
+            <div class="my-card-caption">
+              Take Part
+            </div>
+            <div class="my-card-btn">
+              <button class="btn btn-outline-danger">
+                Our Events
+              </button>
+            </div>
+            <div class="card-end-line">
             </div>
           </div>
-        </nav>
-      </div>
-      <div class="welcome-content">
-        <div class="welcome-content__one">
-          Welcome to
         </div>
-        <div class="welcome-content__two">
-          Rejoice International Ministries
+        <div class="col-10 col-lg-3 mx-lg-5 mb-4">
+          <div class="my-card">
+            <div class="my-card-img">
+              <img src="./assets/img/img4.jpg" alt="">
+            </div>
+            <div class="my-card-caption">
+              Location
+            </div>
+            <div class="my-card-btn">
+              <button class="btn btn-outline-danger">
+                Our Church
+              </button>
+            </div>
+            <div class="card-end-line">
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-lg-3 mb-4">
+          <div class="my-card">
+            <div class="my-card-img">
+              <img src="./assets/img/img4.jpg" alt="">
+            </div>
+            <div class="my-card-caption">
+              Join Our Communities
+            </div>
+            <div class="my-card-btn">
+              <button class="btn btn-outline-danger">
+                Our Groups
+              </button>
+            </div>
+            <div class="card-end-line">
+            </div>
+          </div>
         </div>
       </div>
-    </header>
+    </div>
   </div>
-  
+
+  <!-- About // Section 3 -->
+  <div class="container-fluid my-5">
+    <div class="home-about">
+      <!-- <div class="home-about-img1">
+        <img src="./assets/img/img4.jpg" alt="home-about-img1">
+      </div> -->
+      <div class="left">
+        <div class="left_text">
+          <h2>
+            ABOUT CHURCH
+          </h2>
+          <p>
+            At RIM Church, we want the love that Christ showed on the cross to flow out of our lives, impacting the
+            community.
+          </p>
+          <p>
+            We come from all different backgrounds and cultures but are united in the pursuit and worship of Christ.
+            Above all else, we want to glorify God. We strongly believe that God does His work through the local church
+            and that it is a vital part of the Christian life. Please join us as we come together and let the Gospel
+            transform us!
+          </p>
+        </div>
+      </div>
+      <div class="right">
+        <div>
+          <img src="./assets/img/img4.jpg" alt="home-about-img">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 4 -->
+  <div class="container-fluid my-5">
+    <div class="divotion__outer">
+      <div class="divotional">
+        <div class="divotional__line"></div>
+        <div class="divotional__word">
+          <p>Our church incorporates God's family into our fellowship. We provide a warm, authentic community, welcoming
+            new believers into the body of Christ through baptism.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 5 -->
+  <div class="container-fluid">
+    <div class="ministries text-white">
+      <div class="ministries__header">
+        <h2 class="ministries__header__title">Our Ministries</h2>
+      </div>
+      <div class="ministries__body">
+        <div class="ministries__body__one">Men's Ministry</div>
+        <div class="ministries__body__two">Ladies's Ministry</div>
+        <div class="ministries__body__three">Youth Ministry</div>
+      </div>
+    </div>
+  </div>
 
 
 
