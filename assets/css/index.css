@@ -333,10 +333,20 @@ header .welcome-content_text h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .ministries__header {
   margin: 60px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .ministries__header__title {
@@ -348,6 +358,9 @@ header .welcome-content_text h2 {
   display: -ms-flexbox;
   display: flex;
   margin: 0 0 60px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .ministries__body__one {
@@ -355,6 +368,7 @@ header .welcome-content_text h2 {
   padding-left: 10px;
   padding-right: 40px;
   font-size: 20px;
+  margin-right: 50px;
 }
 
 .ministries__body__two {
@@ -362,6 +376,7 @@ header .welcome-content_text h2 {
   padding-left: 10px;
   padding-right: 40px;
   font-size: 20px;
+  margin-right: 50px;
 }
 
 .ministries__body__three {
@@ -369,5 +384,6 @@ header .welcome-content_text h2 {
   padding-left: 10px;
   padding-right: 40px;
   font-size: 20px;
+  margin-right: 50px;
 }
 /*# sourceMappingURL=index.css.map */

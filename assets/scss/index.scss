@@ -283,9 +283,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 
     &__header {
         margin: 60px 0;
+        display: flex;
+        justify-content: center;
         
         &__title {
             font-weight: 600;
@@ -295,12 +301,14 @@
     &__body {
         display: flex;
         margin: 0 0 60px 0;
+        justify-content: center;
 
         &__one {
             border-left: 2px solid #FF5038;
             padding-left: 10px;
             padding-right: 40px;
             font-size: 20px;
+            margin-right: 50px;
         }
 
         &__two {
@@ -308,6 +316,7 @@
             padding-left: 10px;
             padding-right: 40px;
             font-size: 20px;
+            margin-right: 50px;
         }
 
         &__three {
@@ -315,6 +324,7 @@
             padding-left: 10px;
             padding-right: 40px;
             font-size: 20px;
+            margin-right: 50px;
         }
     }
 }
