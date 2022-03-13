@@ -14,6 +14,10 @@
     background-attachment: fixed;
     background-position-y: -90px;
   
+    .navbar-brand {
+      font-size: 25px;
+    }
+
     .welcome-content {
       display: flex;
       justify-content: center;
@@ -39,7 +43,7 @@
   }
   @media screen and (max-width: 426px) {
     header {
-      padding: 0px 100px;
+      // padding: 0px 100px;
       background-position-y: 0px;
       background-position-x: -4rem;
       height: 100vh;
@@ -56,14 +60,14 @@
     }
   }
   
-  @media screen and (min-width: 427px) {
+  @media screen and (max-width: 480px) {
     header {
-      padding: 0px 50px;
+      padding: 0px 10px;
       height: 100vh;
     }
     .navbar-brand {
       font-weight: bold;
-      font-size: 25px;
+      font-size: 20px;
     }
   }
   
@@ -87,7 +91,7 @@
         &-img {
           border-radius: 10px;
           overflow: hidden;
-          width: 350px;
+          max-width: 350px;
           box-shadow: 0 0 20px rgba($color: #000000, $alpha: 0.5);
           margin-bottom: 20px;
   
@@ -98,7 +102,7 @@
           }
   
           img {
-            width: 350px;
+            width: 100%;
             transition: all 1.2s;
           }
         }
@@ -184,11 +188,8 @@
       }
     }
   }
-  
-  @media screen and (max-width: 768px) {
-    header {
-        height: 100vh;
-    }
+
+  @media screen and (max-width: 991px) {
     .home-about {
       width: 100%;
       overflow: hidden;
@@ -236,14 +237,20 @@
     
         div {
           width: 100%;
-          height: 100%;
+          height: auto;
     
           img {
             width: 100%;
-            height: 100%;
           }
         }
       }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    header {
+        height: 100vh;
+        background-position-x: -200px;
     }
   
     .divotional__word {
@@ -306,33 +313,57 @@
 
     &__body {
         display: flex;
-        margin: 0 0 60px 0;
         justify-content: center;
+        margin-bottom: 60px;
 
-        &__one {
-            border-left: 2px solid #FF5038;
-            padding-left: 10px;
-            padding-right: 40px;
-            font-size: 20px;
-            margin-right: 50px;
+      &__minis {
+        display: flex;
+        align-items: center;
+
+        &__line {
+          width: 2px;
+          height: 50px;
+          background-color: #FF5038;
+          margin-right: 20px;
         }
 
-        &__two {
-            border-left: 2px solid #FF5038;
-            padding-left: 10px;
-            padding-right: 40px;
-            font-size: 20px;
-            margin-right: 50px;
+        &__line1 {
+          margin-left: 20px;
         }
 
-        &__three {
-            border-left: 2px solid #FF5038;
-            padding-left: 10px;
-            padding-right: 40px;
-            font-size: 20px;
-            margin-right: 50px;
+        &__text {
+          margin-right: 100px;
         }
+
+        &__text3 {
+          margin-right: 0;
+        }
+       }
     }
+}
+
+@media screen and (max-width: 768px) {
+  .ministries__body {
+    display: flex;
+    // align-items: center;
+    flex-direction: column;
+
+    &__minis {
+
+      &__line1 {
+        margin-left: 0;
+      }
+
+      &__line {
+        margin-bottom: 20px;
+      }
+
+      &__text {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+  }
 }
 
 /* Section 5 // Our Team */

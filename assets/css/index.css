@@ -16,6 +16,10 @@ header {
   background-position-y: -90px;
 }
 
+header .navbar-brand {
+  font-size: 25px;
+}
+
 header .welcome-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,7 +61,6 @@ header .welcome-content_text h2 {
 
 @media screen and (max-width: 426px) {
   header {
-    padding: 0px 100px;
     background-position-y: 0px;
     background-position-x: -4rem;
     height: 100vh;
@@ -72,14 +75,14 @@ header .welcome-content_text h2 {
   }
 }
 
-@media screen and (min-width: 427px) {
+@media screen and (max-width: 480px) {
   header {
-    padding: 0px 50px;
+    padding: 0px 10px;
     height: 100vh;
   }
   .navbar-brand {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
@@ -114,7 +117,7 @@ header .welcome-content_text h2 {
 .row .col-10 .my-card-img, .row .col-lg-3 .my-card-img {
   border-radius: 10px;
   overflow: hidden;
-  width: 350px;
+  max-width: 350px;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
@@ -126,7 +129,7 @@ header .welcome-content_text h2 {
 }
 
 .row .col-10 .my-card-img img, .row .col-lg-3 .my-card-img img {
-  width: 350px;
+  width: 100%;
   -webkit-transition: all 1.2s;
   transition: all 1.2s;
 }
@@ -219,10 +222,7 @@ header .welcome-content_text h2 {
   transition: all 1.2s;
 }
 
-@media screen and (max-width: 768px) {
-  header {
-    height: 100vh;
-  }
+@media screen and (max-width: 991px) {
   .home-about {
     width: 100%;
     overflow: hidden;
@@ -277,11 +277,17 @@ header .welcome-content_text h2 {
   }
   .home-about .right div {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
   .home-about .right div img {
     width: 100%;
-    height: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 100vh;
+    background-position-x: -200px;
   }
   .divotional__word p {
     font-size: 16px;
@@ -364,34 +370,60 @@ header .welcome-content_text h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 0 60px 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 60px;
 }
 
-.ministries__body__one {
-  border-left: 2px solid #FF5038;
-  padding-left: 10px;
-  padding-right: 40px;
-  font-size: 20px;
-  margin-right: 50px;
+.ministries__body__minis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.ministries__body__two {
-  border-left: 2px solid #FF5038;
-  padding-left: 10px;
-  padding-right: 40px;
-  font-size: 20px;
-  margin-right: 50px;
+.ministries__body__minis__line {
+  width: 2px;
+  height: 50px;
+  background-color: #FF5038;
+  margin-right: 20px;
 }
 
-.ministries__body__three {
-  border-left: 2px solid #FF5038;
-  padding-left: 10px;
-  padding-right: 40px;
-  font-size: 20px;
-  margin-right: 50px;
+.ministries__body__minis__line1 {
+  margin-left: 20px;
+}
+
+.ministries__body__minis__text {
+  margin-right: 100px;
+}
+
+.ministries__body__minis__text3 {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .ministries__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ministries__body__minis__line1 {
+    margin-left: 0;
+  }
+  .ministries__body__minis__line {
+    margin-bottom: 20px;
+  }
+  .ministries__body__minis__text {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 }
 
 /* Section 5 // Our Team */
