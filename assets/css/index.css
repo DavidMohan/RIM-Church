@@ -288,6 +288,7 @@ header .welcome-content_text h2 {
   header {
     height: 100vh;
     background-position-x: -200px;
+    background-attachment: fixed;
   }
   .divotional__word p {
     font-size: 16px;
@@ -328,6 +329,22 @@ header .welcome-content_text h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+  .divotional {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .divotional__line {
+    width: 8px;
+    height: auto;
+    background-color: #F9C643;
+  }
+  .divotional__word {
+    font-size: 20px;
+    padding: 20px 20px 20px 30px;
+  }
 }
 
 .ministries {
@@ -402,6 +419,17 @@ header .welcome-content_text h2 {
 
 .ministries__body__minis__text3 {
   margin-right: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .ministries {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .ministries__body {
+    margin-bottom: 20px;
+    margin-top: -30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
