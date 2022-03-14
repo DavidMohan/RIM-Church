@@ -351,6 +351,7 @@
 
         &__text {
           margin-right: 100px;
+          font-size: 20px;
         }
 
         &__text3 {
@@ -398,87 +399,52 @@
 
 /* Section 5 // Our Team */
 .our-team {
-  width: 100%;
-  height: 100vh;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  align-items: center;
+  height: 100vh;
 
-  h4 {
-    font-size: 18px;
-    color: gray;
-  }
+  &__text {
 
-  &__header {
-    margin: 30px 0;
+    &__name {
+      margin-top: 10px;
+    }
 
-    &__title {
-      text-align: center;
+    &__name2 {
+      font-size: 27px;
     }
   }
 
-  &__body {
-    display: flex;
-    justify-content: center;
+  &__member {
 
-    &__one {
-      margin-left: 20px;
+    &__img {
+      border-radius: 12px;
       overflow: hidden;
-
-      &__img {
-        width: 300px;
-        overflow: hidden;
-        
-        img {
-          width: 100%;
-        }
-      }
-
-      &__about {
-        h2 {
-          font-size: 25px;
-        }
-      }
-    }
-
-    &__two {
-      margin-left: 20px;
-      overflow: hidden;
-
-      &__img {
-        width: 300px;
-        overflow: hidden;
-
-        img {
-          width: 100%;
-        }
-      }
+      transition: all 0.5s;
       
-      &__about {
-        h2 {
-          font-size: 20px;
-        }
+      img {
+        transition: all 1s;
       }
-    }
 
-    &__three {
-      margin-left: 20px;
-      overflow: hidden;
+      &:hover {
+        box-shadow: 0 0 20px rgba($color: #000000, $alpha: 0.3);
 
-      &__img {
-        width: 300px;
-        overflow: hidden;
-        
         img {
-          width: 100%;
-        }
-      }
-      
-      &__about {
-        h2 {
-          font-size: 25px;
+          transform: scale(1.2);
         }
       }
     }
+
+    &__bg {
+      background-color: transparent;
+      border: none;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .our-team {
+    flex-direction: column;
+    height: auto;
   }
 }
