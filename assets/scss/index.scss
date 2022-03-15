@@ -448,3 +448,43 @@
     height: auto;
   }
 }
+
+/* Section 7 // Home Page Contact */
+.home-contact {
+  background-color: #1D2550;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__logo {
+
+  }
+
+  &__navs {
+    border-bottom: 1px solid #fff;
+    width: 70%;
+    text-align: center;
+  }
+
+  &__mailto {
+    border-bottom: 1px solid #fff;
+    width: 70%;
+    text-align: center;
+  }
+
+  &__address {
+    text-align: center;
+  }
+
+  &__social-medias {
+    display: flex;
+
+    &__icon {
+      margin-right: 20px;
+      font-size: 30px;
+    }
+  }
+}
