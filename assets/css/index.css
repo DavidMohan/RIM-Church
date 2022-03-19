@@ -518,7 +518,6 @@ header .welcome-content_text h2 {
 .home-contact {
   background-color: #1D2550;
   width: 100%;
-  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -534,10 +533,22 @@ header .welcome-content_text h2 {
           align-items: center;
 }
 
+.home-contact__logo {
+  margin-top: 90px;
+  margin-bottom: 80px;
+}
+
 .home-contact__navs {
   border-bottom: 1px solid #fff;
   width: 70%;
   text-align: center;
+  margin-bottom: 50px;
+}
+
+.home-contact__navs__nav-links {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 60px;
 }
 
 .home-contact__mailto {
