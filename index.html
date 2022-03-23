@@ -21,7 +21,7 @@
 
   <!-- Header // Section 1 // Navbar and Welcome Text -->
   <header>
-    <nav class="container navbar navbar-expand-lg pt-4 navbar-dark">
+    <nav class="container navbar navbar-expand-lg pt-4 navbar-dark" id="home">
       <div class="container-fluid">
         <a class="navbar-brand fw-bold" href="#">RIM CHURCH</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mybar">
@@ -54,7 +54,7 @@
   </header>
 
   <!-- Cards // Section 2 -->
-  <div class="container-fluid">
+  <div class="container-fluid" id="events">
     <div class="cards">
       <div class="row">
         <div class="col-10 col-lg-3 mb-4">
@@ -115,7 +115,7 @@
   </div>
 
   <!-- About // Section 3 -->
-  <div class="container-fluid my-5">
+  <div class="container-fluid my-5" id="about">
     <div class="home-about">
       <!-- <div class="home-about-img1">
         <img src="./assets/img/img4.jpg" alt="home-about-img1">
@@ -190,7 +190,7 @@
   <!-- Section 6 // Our Team -->
   <div class="container">
     <div class="our-team">
-      <div class="col-10 col-lg-4 our-team__member">
+      <div class="col-10 col-lg-4 our-team__member" id="contact">
         <div class="card our-team__member__bg">
           <div class="card-body">
             <div class="our-team__member__img card-img">
@@ -236,13 +236,13 @@
   <div class="container-fluid">
     <div class="home-contact text-white">
       <div class="home-contact__logo">
-        <img src="./assets/img/brand.png" width="300px" alt="rim church logo">
+        <img src="./assets/img/brand.png" alt="rim church logo">
       </div>
       <div class="home-contact__navs">
-        <a href="#" class="home-contact__navs__nav-links col-10 col-lg-auto">Home</a>
-        <a href="#" class="home-contact__navs__nav-links col-10 col-lg-auto">About</a>
-        <a href="#" class="home-contact__navs__nav-links col-10 col-lg-auto">Events</a>
-        <a href="#" class="home-contact__navs__nav-links col-10 col-lg-auto">Contact Us</a>
+        <a href="#home" class="home-contact__navs__nav-links col-10 col-lg-auto">Home</a>
+        <a href="#about" class="home-contact__navs__nav-links col-10 col-lg-auto">About</a>
+        <a href="#events" class="home-contact__navs__nav-links col-10 col-lg-auto">Events</a>
+        <a href="#contact" class="home-contact__navs__nav-links last-link col-10 col-lg-auto">Contact Us</a>
       </div>
       <div class="home-contact__mailto">
         <h4>Mail to</h4>
@@ -251,18 +251,18 @@
       <div class="home-contact__address">
         <h4>Address</h4>
         <address>
-          18/1A Nallakutralam Street, Ashock Nagar, srivilliputhur - 626 125, Virudunagar, Tamil Nadu, India.
+          18/1A Nallakutralam Street, Ashock Nagar, <br> srivilliputhur - 626 125, Virudunagar, Tamil Nadu, India.
         </address>
       </div>
       <div class="home-contact__social-medias">
         <div class="home-contact__social-medias__icon home-contact__social-medias__youtube">
-          <i class="fa-brands fa-youtube"></i>
+          <a href="https://www.youtube.com/c/SrivilliputhurAGChurch" class="text-white youtube"><i class="fa-brands fa-youtube"></i></a>
         </div>
         <div class="home-contact__social-medias__icon home-contact__social-medias__facebook">
-          <i class="fa-brands fa-facebook-square"></i>
+          <a href="https://www.facebook.com/srivilliputhur.agchurch" class="text-white"><i class="fa-brands fa-facebook-square"></i></a>
         </div>
         <div class="home-contact__social-medias__icon home-contact__social-medias__instagram">
-          <i class="fa-brands fa-instagram"></i>
+          <a href="" class="text-white"><i class="fa-brands fa-instagram"></i></a>
         </div>
       </div>
       <div class="home-contact__copyrights">
