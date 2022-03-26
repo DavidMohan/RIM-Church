@@ -1,18 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
-  }
-  
   /* Section 1 // Header */
   header {
     height: 100vh;
     background: url(../img/img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    // background-position: center;
     background-attachment: fixed;
-    background-position-y: -90px;
+    // background-position-y: -10px;
+    border-radius: 0 0 20px 20px;
   
     .navbar-brand {
       font-size: 25px;
@@ -234,6 +229,7 @@
         overflow: hidden;
         height: auto;
         margin-bottom: -30px;
+        margin-top: 20px;
     
         div {
           width: 100%;
@@ -453,7 +449,7 @@
 .home-contact {
   background-color: #1D2550;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   overflow: hidden;
   // height: 100vh;
   display: flex;
@@ -534,6 +530,7 @@
     background-color: #494848;
     padding: 10px 0;
     display: flex;
+    font-size: 14px;
     justify-content: center;
   }
 }

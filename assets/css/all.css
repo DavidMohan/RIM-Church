@@ -1,0 +1,7 @@
+/* Bootstrap */
+@import url(./bootstrap.css);
+/* AOS */
+@import url(./aos.css);
+/* Custom CSS! */
+@import url(./index.css);
+@import url(./about.css);
