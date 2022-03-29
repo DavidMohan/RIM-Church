@@ -1,0 +1,89 @@
+.ministries {
+  max-width: 100%;
+  background: #1D2550;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  &__header {
+      margin: 60px 0;
+      display: flex;
+      justify-content: center;
+      
+      &__title {
+          font-weight: 600;
+      }
+  }
+
+  &__body {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 60px;
+
+    &__minis {
+      display: flex;
+      align-items: center;
+
+      &__line {
+        width: 2px;
+        height: 50px;
+        background-color: #FF5038;
+        margin-right: 20px;
+      }
+
+      &__line1 {
+        margin-left: 20px;
+      }
+
+      &__text {
+        margin-right: 100px;
+        font-size: 20px;
+      }
+
+      &__text3 {
+        margin-right: 0;
+      }
+     }
+  }
+}
+
+@media screen and (max-width: 480px) {
+.ministries {
+  margin-left: 10px;
+  margin-right: 10px;
+
+  &__body {
+    margin-bottom: 20px;
+    margin-top: -30px;
+  }
+}
+}
+
+@media screen and (max-width: 768px) {
+.ministries__body {
+  display: flex;
+  // align-items: center;
+  flex-direction: column;
+
+  &__minis {
+
+    &__line1 {
+      margin-left: 0;
+    }
+
+    &__line {
+      margin-bottom: 20px;
+    }
+
+    &__text {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+}
+}

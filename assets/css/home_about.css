@@ -1,0 +1,136 @@
+/* Section 3 // Home About */
+.home-about {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.home-about .left {
+  width: 60%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e7e7e7;
+  padding: 60px;
+  padding-right: 160px;
+  margin-right: -100px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.home-about .left_text h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.home-about .left_text p {
+  text-align: justify;
+  font-size: 18px;
+  color: #494848;
+}
+
+.home-about .right {
+  width: 40%;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 400px;
+  -webkit-box-shadow: 0 0 20px #00000050;
+          box-shadow: 0 0 20px #00000050;
+}
+
+.home-about .right div {
+  width: 100%;
+  height: 100%;
+}
+
+.home-about .right div:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.home-about .right div img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 1.2s;
+  transition: all 1.2s;
+}
+
+@media screen and (max-width: 991px) {
+  .home-about {
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .home-about .left {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #e7e7e7;
+    overflow: hidden;
+    margin-left: -100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    height: auto;
+  }
+  .home-about .left_text h2 {
+    font-size: 30px;
+  }
+  .home-about .left_text p {
+    text-align: justify;
+    font-size: 16px;
+    color: #494848;
+  }
+  .home-about .right {
+    width: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    margin-bottom: -30px;
+    margin-top: 20px;
+  }
+  .home-about .right div {
+    width: 100%;
+    height: auto;
+  }
+  .home-about .right div img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=home_about.css.map */

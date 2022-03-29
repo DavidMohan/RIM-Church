@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px) {
+  .divotional__word {
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+/* Section 4 */
+.divotional {
+  display: flex;
+
+  &__line {
+    width: 3px;
+    height: auto;
+    background-color: #F9C643;
+  }
+
+  &__word {
+    font-size: 20px;
+    padding: 20px 20px 20px 40px;
+    margin-top: 10px;
+    max-width: 1200px;
+  
+    p {
+      text-align: justify;
+    }
+  }
+}
+
+.divotion__outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+  .divotional {
+    margin-left: 20px;
+    margin-right: 20px; 
+
+    &__line {
+      width: 8px;
+      height: auto;
+      background-color: #F9C643;
+    }
+
+    &__word {
+      font-size: 20px;
+      padding: 20px 20px 20px 30px;
+    }
+  }
+}

@@ -1,5 +1,11 @@
-.header-about {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/church.jpg);
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/church.jpg);
-}
-/*# sourceMappingURL=about.css.map */
+/* Bootstrap */
+@import url(./bootstrap.css);
+/* AOS */
+@import url(./aos.css);
+/* Custom CSS! */
+
+/* For Navbar CSS! */
+@import url(./navbar.css);
+
+/* For Header Background and Welcome Text CSS! */
+@import url(./about_header.css);

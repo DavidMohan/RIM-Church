@@ -1,0 +1,29 @@
+/* Bootstrap */
+@import url(./bootstrap.css);
+/* AOS */
+@import url(./aos.css);
+/* Custom CSS! */
+
+/* For Navbar CSS! */
+@import url(./navbar.css);
+
+/* For Header Background and Welcome Text CSS! */
+@import url(./home_header.css);
+
+/* Home Page Welcome Navigations CSS! */
+@import url(./welcome-nav.css);
+
+/* Home Page Simple About Section CSS! */
+@import url(./home_about.css);
+
+/* Devitional Quoat CSS! */
+@import url(./devotional_word.css);
+
+/* Our Ministries List Section CSS! */
+@import url(./ministries.css);
+
+/* Our Team Members List CSS! */
+@import url(./our_team.css);
+
+/* Home Page Simple Contact and Copyright Section CSS! */
+@import url(./end_nav.css);

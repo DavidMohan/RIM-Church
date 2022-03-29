@@ -1,0 +1,22 @@
+.navbar-brand {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 426px) {
+  .navbar-brand {
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+  .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+  }
+}

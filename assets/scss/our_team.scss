@@ -1,0 +1,51 @@
+/* Section 5 // Our Team */
+.our-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  &__text {
+
+    &__name {
+      margin-top: 10px;
+    }
+
+    &__name2 {
+      font-size: 27px;
+    }
+  }
+
+  &__member {
+
+    &__img {
+      border-radius: 12px;
+      overflow: hidden;
+      transition: all 0.5s;
+      
+      img {
+        transition: all 1s;
+      }
+
+      &:hover {
+        box-shadow: 0 0 20px rgba($color: #000000, $alpha: 0.3);
+
+        img {
+          transform: scale(1.2);
+        }
+      }
+    }
+
+    &__bg {
+      background-color: transparent;
+      border: none;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .our-team {
+    flex-direction: column;
+    height: auto;
+  }
+}
