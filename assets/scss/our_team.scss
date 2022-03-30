@@ -2,18 +2,49 @@
 .our-team {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 100vh;
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    &__line {
+      width: 150px;
+      height: 3px;
+      background-color: #000;
+    }
+  }
+
+  .row1 {
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  .row2 {
+    margin-top: 10px;
+  }
 
   &__text {
 
     &__name {
       margin-top: 10px;
+      font-size: 22px;
     }
 
+    &__desigination {
+      font-size: 14px;
+    }
+/* 
     &__name2 {
       font-size: 27px;
-    }
+    } */
   }
 
   &__member {
