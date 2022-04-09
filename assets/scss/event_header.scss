@@ -1,0 +1,31 @@
+/* Section 1 // Header */
+header {
+  height: 100vh;
+  background-image: url(../img/img5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-position: center;
+  background-attachment: fixed;
+  // background-position-y: -10px;
+  border-radius: 0 0 20px 20px;
+
+  .welcome-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+  
+    &_text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+      
+      h2 {
+        font-weight: 600;
+      }
+    }
+  }  
+}

@@ -1,0 +1,14 @@
+/* Bootstrap */
+@import url(./bootstrap.css);
+/* AOS */
+@import url(./aos.css);
+/* Custom CSS! */
+
+/* For Navbar CSS! */
+@import url(./navbar.css);
+
+/* For Header Background and Welcome Text CSS! */
+@import url(./event_header.css);
+
+/* Home Page Welcome Navigations CSS! */
+@import url(./welcome-nav.css);
