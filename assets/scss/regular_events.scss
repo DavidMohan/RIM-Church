@@ -1,0 +1,278 @@
+.regular-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100;
+
+  &__title {
+    margin-top: 20px;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+
+    &__line {
+      width: 100px;
+      height: 2px;
+      background-color: #000;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__odd {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+
+    &__img1 {
+      width: 20%;
+      overflow: hidden;
+      border-radius: 8px;
+      margin-right: -110px;
+      margin-left: 30px;
+      z-index: 0;
+      
+      img {
+        width: 100%;
+        transition: all 1s;
+      }
+
+      &:hover {
+
+        img {
+          transform: scale(1.2) rotate(8deg) ;
+        }
+      }
+    }
+
+    &__content {
+      width: 80%;
+      height: 200px;
+      margin-left: 50px;
+      background-color: #00000030;
+      border-radius: 12px;
+      padding: 30px 50px 50px 100px;
+      
+      &__title {
+        display: flex;
+
+        h2 {
+          font-size: 30px;
+          font-weight: 600;
+        }
+
+        h6 {
+          margin-top: 8px;
+          margin-left: 10px;
+        }
+      }
+
+      &__sunday-p {
+        margin-top: -15px;
+      }
+
+      &__sunday-fs {
+        font-size: 15px;
+      }
+    }
+  }
+
+  &__even {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+
+    &__img1 {
+      width: 20%;
+      overflow: hidden;
+      border-radius: 8px;
+      margin-left: -110px;
+      margin-right: 30px;
+      z-index: 0;
+      
+      img {
+        width: 100%;
+        transition: all 1s;
+      }
+
+      &:hover {
+
+        img {
+          transform: scale(1.2) rotate(8deg) ;
+        }
+      }
+    }
+
+    &__content {
+      width: 80%;
+      height: 200px;
+      margin-right: 50px;
+      background-color: #00000030;
+      border-radius: 12px;
+      padding: 30px 100px 50px 60px;
+      
+      &__title {
+        display: flex;
+
+        h2 {
+          font-size: 30px;
+          font-weight: 600;
+        }
+
+        h6 {
+          margin-top: 8px;
+          margin-left: 10px;
+        }
+      }
+
+      // &__sunday-p {
+      //   margin-top: -15px;
+      // }
+
+      &__sunday-fs {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .regular-events {
+
+    &__odd {
+
+      &__img1 {
+        width: 30%;
+      }
+
+      &__content {
+        
+        &__title {
+          margin-top: -10px;
+        }
+
+        p {
+          margin-top: -10px;
+        }
+      }
+    }
+    
+    &__even {
+
+      &__img1 {
+        width: 30%;
+      }
+
+      &__content {
+        
+        &__title {
+          margin-top: -10px;
+        }
+
+        p {
+          margin-top: -10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .regular-events {
+    
+    &__odd {
+      flex-direction: column;
+
+      &__img1 {
+        width: 90%;
+        margin: 0 0 0 0;
+      }
+
+      &__content {
+        width: 100%;
+        margin: -30px 0px 0px 0px;
+        height: auto;
+        padding: 60px 20px 20px 40px;
+      }
+    }
+
+    &__even {
+      flex-direction: column;
+
+      &__img1 {
+        width: 90%;
+        margin: 0 0 0 0;
+      }
+
+      &__content {
+        width: 100%;
+        margin: -30px 0px 0px 0px;
+        height: auto;
+        padding: 60px 20px 20px 40px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .regular-events {
+    
+    &__odd {
+
+      &__content {
+        padding: 60px 40px 30px 40px;
+
+        &__title {
+          
+          h2 {
+            font-size: 25px;
+            margin-bottom: 8px;
+          }
+
+          h6 {
+            margin: 6px 0px 0px 10px;
+          }
+        }
+
+        .fs {
+          font-size: 21px;
+          margin-top: 6px;
+        }
+
+        p {
+          text-align: justify;
+        }
+      }
+    }
+
+    &__even {
+
+      &__content {
+        padding: 60px 40px 30px 40px;
+
+        &__title {
+          
+          h2 {
+            font-size: 25px;
+            margin-bottom: 8px;
+          }
+
+          h6 {
+            margin: 6px 0px 0px 10px;
+          }
+        }
+
+        .fs {
+          font-size: 21px;
+          margin-top: 6px;
+        }
+
+        p {
+          text-align: justify;
+        }
+      }
+    }
+  }
+}

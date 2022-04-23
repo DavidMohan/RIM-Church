@@ -8,7 +8,10 @@
 @import url(./navbar.css);
 
 /* For Header Background and Welcome Text CSS! */
-@import url(./event_header.css);
+@import url(./events_header.css);
 
 /* Home Page Welcome Navigations CSS! */
 @import url(./welcome-nav.css);
+
+/*  */
+@import url(./regular_events.css);

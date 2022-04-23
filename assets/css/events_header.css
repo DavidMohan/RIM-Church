@@ -1,7 +1,7 @@
 /* Section 1 // Header */
 header {
   height: 100vh;
-  background-image: url(../img/img5.jpg);
+  background: url(../img/bg/dark/img3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -39,7 +39,32 @@ header .welcome-content_text {
   text-align: center;
 }
 
+header .welcome-content_text h4 {
+  font-weight: 300;
+}
+
 header .welcome-content_text h2 {
   font-weight: 600;
 }
-/*# sourceMappingURL=event_header.css.map */
+
+@media screen and (max-width: 426px) {
+  header {
+    background-position-y: 0px;
+    background-position-x: -4rem;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    padding: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    background-position-x: -200px;
+    background-attachment: fixed;
+  }
+}
+/*# sourceMappingURL=events_header.css.map */

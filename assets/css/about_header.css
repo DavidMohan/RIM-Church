@@ -1,8 +1,7 @@
 /* Section 1 // Header */
 header {
   height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/img3.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/img3.jpg);
+  background: url(../img/bg/dark/img5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
