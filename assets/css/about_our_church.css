@@ -1,0 +1,11 @@
+.our-church
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+}
+.name_outer
+{
+    padding: 30px 130px;
+}

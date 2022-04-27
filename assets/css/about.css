@@ -2,8 +2,6 @@
 @import url(./bootstrap.css);
 /* AOS */
 @import url(./aos.css);
-
-
 /* Custom CSS! */
 
 /* For Navbar CSS! */
@@ -11,3 +9,9 @@
 
 /* For Header Background and Welcome Text CSS! */
 @import url(./about_header.css);
+
+@import url(./about_our_church.css);
+
+@import url(./end_nav.css);
+
+@import url(./devotional_word.css);
