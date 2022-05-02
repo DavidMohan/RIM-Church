@@ -1,0 +1,221 @@
+@media screen and (max-width: 768px) {
+  /**
+  Code Creator: https://github.com/duongductrong
+  Source Design: Internet
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+$dark: #121212;
+$white: #fff;
+
+$container-width: 800px;
+
+.event_gallery {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+  font-family: Fredoka, sans-serif;
+  
+  // background: linear-gradient(to bottom, $dark, #000);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+  // min-height: 100vh;
+}
+
+// Styles
+.flexible-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  
+  transition: all 300ms ease;
+  
+  .flexible-cards__item {
+    cursor: pointer;
+    position: relative;
+    min-width: 100%;
+    max-width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    overflow: hidden;
+    
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      backdrop-filter: blur(10px);
+      background: transparent;
+      transition: background 300ms ease;
+    }
+    
+    transition: all 300ms ease;
+    
+    &.active {
+      height: 300px;
+      
+      &::before {
+        backdrop-filter: blur(0px);
+        background: linear-gradient(to top, #000, transparent);
+      }
+      
+      .flexible-cards__item__content {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .flexible-cards__item__content {
+      position: absolute;
+      bottom: 1rem;
+      left: 1rem;
+      transform: translateY(100%);
+      visibility: hidden;
+      opacity: 0;
+      
+      transition: all 600ms ease;
+      
+      .flexible-cards__item__content__title {
+        margin-bottom: 0.25rem;
+        line-height: 1.25;
+        font-size: 1.375rem;
+        color: $white
+      }
+      
+      .flexible-cards__item__content__desc {
+        margin: 0;
+        color: $white
+      }
+    }
+  }
+}
+}
+
+@media screen and (min-width: 800px) {
+  /**
+  Code Creator: https://github.com/duongductrong
+  Source Design: Internet
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+$dark: #121212;
+$white: #fff;
+
+$container-width: 800px;
+
+.event_gallery {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+  font-family: Fredoka, sans-serif;
+  
+  // background: linear-gradient(to bottom, $dark, #000);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+  // min-height: 100vh;
+}
+
+// Styles
+.flexible-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  
+  transition: all 300ms ease;
+  
+  .flexible-cards__item {
+    cursor: pointer;
+    position: relative;
+    min-height: 400px;
+    max-height: 400px;
+    width: 50px;
+    border-radius: 30px;
+    overflow: hidden;
+    
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      backdrop-filter: blur(10px);
+      background: transparent;
+      transition: background 300ms ease;
+    }
+    
+    transition: all 300ms ease;
+    
+    &.active {
+      width: 800px;
+      
+      &::before {
+        backdrop-filter: blur(0px);
+        background: linear-gradient(to top, #000, transparent);
+      }
+      
+      .flexible-cards__item__content {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .flexible-cards__item__content {
+      position: absolute;
+      bottom: 1rem;
+      left: 1rem;
+      transform: translateY(100%);
+      visibility: hidden;
+      opacity: 0;
+      
+      transition: all 600ms ease;
+      
+      .flexible-cards__item__content__title {
+        margin-bottom: 0.25rem;
+        line-height: 1.25;
+        font-size: 1.375rem;
+        color: $white
+      }
+      
+      .flexible-cards__item__content__desc {
+        margin: 0;
+        color: $white
+      }
+    }
+  }
+}
+}
