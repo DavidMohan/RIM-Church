@@ -19,14 +19,42 @@
   font-weight: 600;
 }
 
-.regular-events__title__line {
+.regular-events__line {
   width: 100px;
   height: 2px;
   background-color: #000;
   margin-bottom: 20px;
 }
 
-.regular-events__odd {
+.upcomming-events {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100;
+}
+
+.upcomming-events__title {
+  margin-top: 20px;
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.upcomming-events__title__line {
+  width: 100px;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 20px;
+}
+
+.upcomming-events__odd {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,7 +65,7 @@
   width: 100%;
 }
 
-.regular-events__odd__img1 {
+.upcomming-events__odd__img1 {
   width: 20%;
   overflow: hidden;
   border-radius: 8px;
@@ -46,18 +74,18 @@
   z-index: 0;
 }
 
-.regular-events__odd__img1 img {
+.upcomming-events__odd__img1 img {
   width: 100%;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
 
-.regular-events__odd__img1:hover img {
+.upcomming-events__odd__img1:hover img {
   -webkit-transform: scale(1.2) rotate(8deg);
           transform: scale(1.2) rotate(8deg);
 }
 
-.regular-events__odd__content {
+.upcomming-events__odd__content {
   width: 80%;
   height: 200px;
   margin-left: 50px;
@@ -66,31 +94,31 @@
   padding: 30px 50px 50px 100px;
 }
 
-.regular-events__odd__content__title {
+.upcomming-events__odd__content__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.regular-events__odd__content__title h2 {
+.upcomming-events__odd__content__title h2 {
   font-size: 30px;
   font-weight: 600;
 }
 
-.regular-events__odd__content__title h6 {
+.upcomming-events__odd__content__title h6 {
   margin-top: 8px;
   margin-left: 10px;
 }
 
-.regular-events__odd__content__sunday-p {
+.upcomming-events__odd__content__sunday-p {
   margin-top: -15px;
 }
 
-.regular-events__odd__content__sunday-fs {
+.upcomming-events__odd__content__sunday-fs {
   font-size: 15px;
 }
 
-.regular-events__even {
+.upcomming-events__even {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -105,7 +133,7 @@
   width: 100%;
 }
 
-.regular-events__even__img1 {
+.upcomming-events__even__img1 {
   width: 20%;
   overflow: hidden;
   border-radius: 8px;
@@ -114,18 +142,18 @@
   z-index: 0;
 }
 
-.regular-events__even__img1 img {
+.upcomming-events__even__img1 img {
   width: 100%;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
 
-.regular-events__even__img1:hover img {
+.upcomming-events__even__img1:hover img {
   -webkit-transform: scale(1.2) rotate(8deg);
           transform: scale(1.2) rotate(8deg);
 }
 
-.regular-events__even__content {
+.upcomming-events__even__content {
   width: 80%;
   height: 200px;
   margin-right: 50px;
@@ -134,23 +162,23 @@
   padding: 30px 100px 50px 60px;
 }
 
-.regular-events__even__content__title {
+.upcomming-events__even__content__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.regular-events__even__content__title h2 {
+.upcomming-events__even__content__title h2 {
   font-size: 30px;
   font-weight: 600;
 }
 
-.regular-events__even__content__title h6 {
+.upcomming-events__even__content__title h6 {
   margin-top: 8px;
   margin-left: 10px;
 }
 
-.regular-events__even__content__sunday-fs {
+.upcomming-events__even__content__sunday-fs {
   font-size: 15px;
 }
 
