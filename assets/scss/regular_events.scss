@@ -1,8 +1,8 @@
-.regular-events {
+.regular_events {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100;
+  width: 100%;
 
   &__title {
     margin-top: 20px;
@@ -25,6 +25,10 @@
   flex-direction: column;
   align-items: center;
   width: 100;
+
+  &__bg {
+    background-image: url(../img/bg/dark/img8.jpg)
+  }
 
   &__title {
     margin-top: 20px;
@@ -71,7 +75,7 @@
       width: 80%;
       height: 200px;
       margin-left: 50px;
-      background-color: #00000010;
+      background-color: rgba($color: #fff, $alpha: 0.5);
       border-radius: 12px;
       padding: 30px 50px 50px 100px;
 
@@ -131,7 +135,7 @@
       width: 80%;
       height: 200px;
       margin-right: 50px;
-      background-color: #00000010;
+      background-color: rgba($color: #fff, $alpha: 0.5);
       border-radius: 12px;
       padding: 30px 100px 50px 60px;
 
@@ -161,7 +165,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .regular-events {
+  .upcomming-events {
 
     &__odd {
 
@@ -202,7 +206,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .regular-events {
+  .upcomming-events {
 
     &__odd {
       flex-direction: column;
@@ -239,7 +243,7 @@
 }
 
 @media screen and (max-width: 426px) {
-  .regular-events {
+  .upcomming-events {
 
     &__odd {
 

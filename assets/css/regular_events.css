@@ -1,4 +1,4 @@
-.regular-events {
+.regular_events {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,17 +9,17 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100;
+  width: 100%;
 }
 
-.regular-events__title {
+.regular_events__title {
   margin-top: 20px;
   color: black;
   font-size: 30px;
   font-weight: 600;
 }
 
-.regular-events__line {
+.regular_events__line {
   width: 100px;
   height: 2px;
   background-color: #000;
@@ -38,6 +38,11 @@
       -ms-flex-align: center;
           align-items: center;
   width: 100;
+  margin-top: 20px;
+}
+
+.upcomming-events__bg {
+  background-image: url(../img/bg/dark/img8.jpg);
 }
 
 .upcomming-events__title {
@@ -89,7 +94,7 @@
   width: 80%;
   height: 200px;
   margin-left: 50px;
-  background-color: #00000010;
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 12px;
   padding: 30px 50px 50px 100px;
 }
@@ -157,7 +162,7 @@
   width: 80%;
   height: 200px;
   margin-right: 50px;
-  background-color: #00000010;
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 12px;
   padding: 30px 100px 50px 60px;
 }
@@ -183,54 +188,54 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .regular-events__odd__img1 {
+  .upcomming-events__odd__img1 {
     width: 30%;
   }
-  .regular-events__odd__content__title {
+  .upcomming-events__odd__content__title {
     margin-top: -10px;
   }
-  .regular-events__odd__content p {
+  .upcomming-events__odd__content p {
     margin-top: -10px;
   }
-  .regular-events__even__img1 {
+  .upcomming-events__even__img1 {
     width: 30%;
   }
-  .regular-events__even__content__title {
+  .upcomming-events__even__content__title {
     margin-top: -10px;
   }
-  .regular-events__even__content p {
+  .upcomming-events__even__content p {
     margin-top: -10px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .regular-events__odd {
+  .upcomming-events__odd {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .regular-events__odd__img1 {
+  .upcomming-events__odd__img1 {
     width: 90%;
     margin: 0 0 0 0;
   }
-  .regular-events__odd__content {
+  .upcomming-events__odd__content {
     width: 100%;
     margin: -30px 0px 0px 0px;
     height: auto;
     padding: 60px 20px 20px 40px;
   }
-  .regular-events__even {
+  .upcomming-events__even {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .regular-events__even__img1 {
+  .upcomming-events__even__img1 {
     width: 90%;
     margin: 0 0 0 0;
   }
-  .regular-events__even__content {
+  .upcomming-events__even__content {
     width: 100%;
     margin: -30px 0px 0px 0px;
     height: auto;
@@ -239,38 +244,38 @@
 }
 
 @media screen and (max-width: 426px) {
-  .regular-events__odd__content {
+  .upcomming-events__odd__content {
     padding: 60px 40px 30px 40px;
   }
-  .regular-events__odd__content__title h2 {
+  .upcomming-events__odd__content__title h2 {
     font-size: 25px;
     margin-bottom: 8px;
   }
-  .regular-events__odd__content__title h6 {
+  .upcomming-events__odd__content__title h6 {
     margin: 6px 0px 0px 10px;
   }
-  .regular-events__odd__content .fs {
+  .upcomming-events__odd__content .fs {
     font-size: 21px;
     margin-top: 6px;
   }
-  .regular-events__odd__content p {
+  .upcomming-events__odd__content p {
     text-align: justify;
   }
-  .regular-events__even__content {
+  .upcomming-events__even__content {
     padding: 60px 40px 30px 40px;
   }
-  .regular-events__even__content__title h2 {
+  .upcomming-events__even__content__title h2 {
     font-size: 25px;
     margin-bottom: 8px;
   }
-  .regular-events__even__content__title h6 {
+  .upcomming-events__even__content__title h6 {
     margin: 6px 0px 0px 10px;
   }
-  .regular-events__even__content .fs {
+  .upcomming-events__even__content .fs {
     font-size: 21px;
     margin-top: 6px;
   }
-  .regular-events__even__content p {
+  .upcomming-events__even__content p {
     text-align: justify;
   }
 }
