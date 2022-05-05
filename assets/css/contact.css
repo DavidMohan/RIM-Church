@@ -8,10 +8,7 @@
 @import url(./navbar.css);
 
 /* For Header Background and Welcome Text CSS! */
-@import url(./about_header.css);
+@import url(./contact_header.css);
 
-@import url(./about_our_church.css);
-
+/* Footer CSS! */
 @import url(./footer.css);
-
-@import url(./devotional_word.css);

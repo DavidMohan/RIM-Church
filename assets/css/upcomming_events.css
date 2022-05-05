@@ -44,6 +44,7 @@
   overflow: hidden;
   border-radius: 20px;
   background-image: url(../img/bg/dark/img8.jpg);
+  margin-bottom: 30px;
 }
 
 .upcomming-events__title {
@@ -280,4 +281,4 @@
     text-align: justify;
   }
 }
-/*# sourceMappingURL=regular_events.css.map */
+/*# sourceMappingURL=upcomming_events.css.map */

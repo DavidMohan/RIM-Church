@@ -10,6 +10,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 20px 20px 0px 0px;
   padding: 0;
 }
 
@@ -67,7 +68,6 @@
   padding: 100px 0px 50px 0px;
   width: 100%;
   height: auto;
-  border-radius: 20px 20px 0px 0px;
 }
 
 .home-footer__inner__left {
@@ -108,7 +108,7 @@
 
 .home-footer__inner__middle ul {
   list-style-type: none;
-  margin-left: -30px;
+  margin-bottom: 0;
 }
 
 .home-footer__inner__middle ul li {
@@ -138,7 +138,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-width: 200px;
+  max-width: 300px;
 }
 
 .home-footer__inner__right ul {
@@ -170,6 +170,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    max-width: 400px;
   }
 }
 /*# sourceMappingURL=footer.css.map */

@@ -13,7 +13,11 @@
 /* Home Page Welcome Navigations CSS! */
 @import url(./welcome-nav.css);
 
-/*  */
-@import url(./regular_events.css);
+/* for the Event Page Upcomming Events CSS! */
+@import url(./upcomming_events.css);
 
+/* Events Page Regular Event Gallery CSS! */
 @import url(./event_gallery.css);
+
+/* Footer Details CSS! */
+@import url(./footer.css);
