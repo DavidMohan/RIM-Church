@@ -1,0 +1,128 @@
+.home-footer {
+  background-color: #1D2550;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+
+  &__social-media {
+    margin-bottom: 30px;
+
+    ul {
+      list-style: none;
+      display: flex;
+      font-size: 35px;
+
+      li {
+        padding: 0px 20px 0px 0px;
+
+        a {
+          text-decoration: none;
+          color: rgb(194, 194, 194);
+          transition: all 0.5s;
+
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  &__copyrights {
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    margin: 0;
+    padding: 5px;
+    font-size: 10px;
+    color: rgb(194, 194, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.home-footer__inner {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0px 50px 0px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0px 0px;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    max-width: 300px;
+
+    &__logo {
+      margin: 0px 0px 40px 0px;
+    }
+  }
+
+  &__middle {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+      list-style-type: none;
+      margin-left: -30px;
+
+      li {
+        margin-top: 5px;
+
+        a {
+          text-decoration: none;
+          color: rgb(215, 215, 215);
+          transition: all 0.5s;
+
+          &:hover {
+            color: rgb(255, 255, 255);
+          }
+        }
+      }
+    }
+  }
+
+  &__right {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    min-width: 200px;
+
+    ul {
+      list-style: none;
+
+      li {
+        margin-top: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-footer__inner {
+    flex-direction: column;
+    align-items: center;
+
+    &__left {
+      margin-top: -50px;
+    }
+
+    &__middle {
+      margin-top: 50px;
+    }
+
+    &__right {
+      margin-top: 50px;
+      align-items: center;
+    }
+  }
+}

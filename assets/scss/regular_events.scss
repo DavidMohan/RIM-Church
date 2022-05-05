@@ -27,6 +27,8 @@
   width: 100;
 
   &__bg {
+    overflow: hidden;
+    border-radius: 20px;
     background-image: url(../img/bg/dark/img8.jpg)
   }
 
