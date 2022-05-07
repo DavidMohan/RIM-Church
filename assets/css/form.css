@@ -1,0 +1,107 @@
+.form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form__left {
+  z-index: 0;
+  width: 50%;
+  margin-right: -100px;
+  overflow: hidden;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  border-radius: 10px;
+}
+
+.form__left__img {
+  width: 100%;
+}
+
+.form__left__img img {
+  width: 100%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.form__left:hover {
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.form__left:hover .form__left__img img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.form__right {
+  width: 60%;
+  height: 500px;
+  background: #1c92d2;
+  /* fallback for old browsers */
+  background: -webkit-gradient(linear, right top, left top, from(#1c92d2), to(#f2fcfe));
+  background: linear-gradient(to left, #1c92d2, #f2fcfe);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.form__right form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  margin: 0px 0px 0px 250px;
+}
+
+.form__right__element {
+  margin-top: 10px;
+  width: 300px;
+  padding: 5px 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  outline: none;
+  border-radius: 5px;
+}
+
+.form__right #home::before {
+  content: "<i class='fa-solid fa-eject'></i>";
+}
+
+.form__right__submit {
+  border: none;
+  margin: 20px 211px 10px 0px;
+  width: 150px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#4b6cb7), color-stop(51%, #182848), to(#4b6cb7));
+  background-image: linear-gradient(to right, #4b6cb7 0%, #182848 51%, #4b6cb7 100%);
+  padding: 8px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  -webkit-box-shadow: 0 0 20px #eee;
+          box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.form__right__submit:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+/*# sourceMappingURL=form.css.map */

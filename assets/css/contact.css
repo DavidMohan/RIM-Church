@@ -10,5 +10,8 @@
 /* For Header Background and Welcome Text CSS! */
 @import url(./contact_header.css);
 
+/* Form CSS! */
+@import url(./form.css);
+
 /* Footer CSS! */
 @import url(./footer.css);
