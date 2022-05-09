@@ -1,0 +1,50 @@
+.pastor {
+    background-color: #1D2550;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 0px 0px 0px 0px;
+    padding: 0;
+    color: #fff;
+  }
+
+  .our_pastor{
+      text-align: center;
+  }
+
+  .two_pastor{
+      display: flex;
+      flex-direction: column;
+  }
+
+
+ .first_pastor {
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 50px 0px 50px 0px;
+    width: 100%;
+    height: auto;
+  } 
+
+  .second_pastor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 50px 0px 50px 0px;
+    width: 100%;
+    height: auto;
+    color: #fff;
+  } 
