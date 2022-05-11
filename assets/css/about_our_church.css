@@ -9,3 +9,22 @@
 {
     padding: 30px 130px;
 }
+
+@media screen and (max-width: 425px) {
+    .name_outer{
+        padding: 30px 10px;
+    }
+
+    .our-church__name h2{
+        font-size: 23px;
+    }
+
+    .our-church__sub-name h4{
+        font-size: 20px;
+    }
+
+    .our-church__about p{
+        font-size: 15px;
+        text-align: justify;
+    }
+}
