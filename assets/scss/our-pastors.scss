@@ -1,0 +1,39 @@
+.our-pastors {
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    &__name {
+      font-size: 34px;
+      font-weight: 600;
+    }
+
+    &__part {
+      font-size: 26px;
+      font-weight: 200;
+    }
+  }
+
+  &__data {
+    display: flex;
+    align-items: center;
+
+    &__img {
+      width:700px;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    &__content {
+      max-width: 70%;
+      padding: 0px 0px 0px 30px;
+  
+      p {
+        font-size: 20px;
+        text-align: justify;
+      }
+    }
+  }
+}

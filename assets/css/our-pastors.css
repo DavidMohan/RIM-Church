@@ -1,0 +1,46 @@
+.our-pastors__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.our-pastors__details__name {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.our-pastors__details__part {
+  font-size: 26px;
+  font-weight: 200;
+}
+
+.our-pastors__data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.our-pastors__data__img {
+  width: 700px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.our-pastors__data__content {
+  max-width: 70%;
+  padding: 0px 0px 0px 30px;
+}
+
+.our-pastors__data__content p {
+  font-size: 20px;
+  text-align: justify;
+}
+/*# sourceMappingURL=our-pastors.css.map */
