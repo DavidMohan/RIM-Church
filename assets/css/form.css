@@ -132,4 +132,16 @@
     margin: 0px 0px 0px 0px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .form__right form {
+    margin: 0px 0px 0px 50px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .form__right__submit {
+    margin: 20px 110px 0px 0px;
+  }
+}
 /*# sourceMappingURL=form.css.map */
