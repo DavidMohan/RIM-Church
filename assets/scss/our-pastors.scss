@@ -1,5 +1,11 @@
 .our-pastors {
-  background-color: #1D2550;
+  // background-color: #1D2550;
+  background-image: url(../img/bg/dark/img3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  // background: fixed;
   padding: 30px 200px;
   width: 100%;
   height: auto;
@@ -30,24 +36,24 @@
       display: flex;
       flex-direction: column;
       margin-bottom: 20px;
-  
+
       &__name {
         font-size: 34px;
         font-weight: 600;
       }
-  
+
       &__part {
         font-size: 26px;
         font-weight: 200;
       }
     }
-  
+
     &__data {
       display: flex;
       align-items: center;
-  
+
       &__img {
-        width:700px;
+        width: 700px;
         border-radius: 20px;
         overflow: hidden;
 
@@ -58,18 +64,19 @@
         &:hover {
 
           img {
-            transform: scale(1.5);
+            transform: scale(1.2);
           }
         }
       }
-  
+
       &__content {
         max-width: 70%;
         padding: 0px 0px 0px 30px;
-    
+
         p {
           font-size: 20px;
           text-align: justify;
+          color: rgb(215, 213, 213);
         }
       }
     }
@@ -81,36 +88,125 @@
       flex-direction: column;
       margin-bottom: 20px;
       text-align: right;
-  
+
       &__name {
         font-size: 34px;
         font-weight: 600;
       }
-  
+
       &__part {
         font-size: 26px;
         font-weight: 200;
       }
     }
-  
+
     &__data {
       display: flex;
       align-items: center;
       flex-direction: row-reverse;
-  
+
       &__img {
-        width:700px;
+        width: 700px;
         border-radius: 20px;
         overflow: hidden;
+
+        img {
+          transition: all 1s;
+        }
+
+        &:hover {
+
+          img {
+            transform: scale(1.2);
+          }
+        }
+
       }
-  
+
       &__content {
         max-width: 70%;
         padding: 0px 30px 0px 0px;
-    
+
         p {
           font-size: 20px;
+          color: rgb(215, 213, 213);
           text-align: justify;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .our-pastors {
+    padding: 10px 10px;
+
+    &__title {
+
+      &__text {
+        font-size: 30px;
+      }
+    }
+
+    &__odd {
+      &__details {
+        padding: 0px 0px 0px 40px;
+
+        &__name {
+          font-size: 25px;
+        }
+
+        &__part {
+          font-size: 18px;
+        }
+      }
+
+      &__data {
+        flex-direction: column;
+
+        &__img {
+          width: 80%;
+        }
+
+        &__content {
+          max-width: 90%;
+          padding: 10px 20px;
+
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+
+    &__even {
+      &__details {
+        padding: 0px 0px 0px 40px;
+        text-align: left;
+
+        &__name {
+          font-size: 20px;
+        }
+
+        &__part {
+          font-size: 18px;
+        }
+      }
+
+      &__data {
+        flex-direction: column;
+
+        &__img {
+          width: 80%;
+        }
+
+        &__content {
+          max-width: 90%;
+          padding: 10px 20px;
+
+          p {
+            font-size: 16px;
+          }
         }
       }
     }

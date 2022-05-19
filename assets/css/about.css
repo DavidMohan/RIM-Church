@@ -10,12 +10,14 @@
 /* For Header Background and Welcome Text CSS! */
 @import url(./about_header.css);
 
-@import url(./about_our_church.css);
+/* @import url(./about_our_church.css); */
+
+@import url(./our-church.css);
 
 @import url(./footer.css);
 
 @import url(./devotional_word.css);
 
-@import url(./pastor.css);
+/* @import url(./pastor.css); */
 
 @import url(./our-pastors.css);

@@ -1,5 +1,9 @@
 .our-pastors {
-  background-color: #1D2550;
+  background-image: url(../img/bg/dark/img3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   padding: 30px 200px;
   width: 100%;
   height: auto;
@@ -75,8 +79,8 @@
 }
 
 .our-pastors__odd__data__img:hover img {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .our-pastors__odd__data__content {
@@ -87,6 +91,7 @@
 .our-pastors__odd__data__content p {
   font-size: 20px;
   text-align: justify;
+  color: #d7d5d5;
 }
 
 .our-pastors__even__details {
@@ -130,6 +135,16 @@
   overflow: hidden;
 }
 
+.our-pastors__even__data__img img {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.our-pastors__even__data__img:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .our-pastors__even__data__content {
   max-width: 70%;
   padding: 0px 30px 0px 0px;
@@ -137,6 +152,67 @@
 
 .our-pastors__even__data__content p {
   font-size: 20px;
+  color: #d7d5d5;
   text-align: justify;
+}
+
+@media screen and (max-width: 426px) {
+  .our-pastors {
+    padding: 10px 10px;
+  }
+  .our-pastors__title__text {
+    font-size: 30px;
+  }
+  .our-pastors__odd__details {
+    padding: 0px 0px 0px 40px;
+  }
+  .our-pastors__odd__details__name {
+    font-size: 25px;
+  }
+  .our-pastors__odd__details__part {
+    font-size: 18px;
+  }
+  .our-pastors__odd__data {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .our-pastors__odd__data__img {
+    width: 80%;
+  }
+  .our-pastors__odd__data__content {
+    max-width: 90%;
+    padding: 10px 20px;
+  }
+  .our-pastors__odd__data__content p {
+    font-size: 16px;
+  }
+  .our-pastors__even__details {
+    padding: 0px 0px 0px 40px;
+    text-align: left;
+  }
+  .our-pastors__even__details__name {
+    font-size: 20px;
+  }
+  .our-pastors__even__details__part {
+    font-size: 18px;
+  }
+  .our-pastors__even__data {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .our-pastors__even__data__img {
+    width: 80%;
+  }
+  .our-pastors__even__data__content {
+    max-width: 90%;
+    padding: 10px 20px;
+  }
+  .our-pastors__even__data__content p {
+    font-size: 16px;
+  }
 }
 /*# sourceMappingURL=our-pastors.css.map */

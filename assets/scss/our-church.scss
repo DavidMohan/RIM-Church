@@ -1,0 +1,87 @@
+.our-church {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0px;
+
+  &__title {
+    font-weight: 600;
+    font-size: 35px;
+
+    &__line {
+      width: 100px;
+      height: 2px;
+      background-color: #000;
+      margin: 0px 0px 20px 0px;
+    }
+  }
+
+  &__img {
+    width: 900px;
+    border-radius: 12px;
+    overflow: hidden;
+
+    img {
+      transition: all 1s;
+    }
+
+    &:hover {
+
+      img {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  &__content {
+    max-width: 900px;
+
+    &__name {
+        font-size: 30px;
+        font-weight: 600;
+        margin: 10px 0px 0px 0px;
+    }
+
+    &__sub-name {
+      font-size: 25px;
+      font-weight: 400;
+    }
+
+    &__about {
+      margin: 10px 0px 0px 0px;
+      
+      p {
+        text-align: justify;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 426px) {
+  .our-church {
+
+    &__img {
+      width: 90%;
+    }
+
+    &__content {
+      margin: 0px 20px;
+
+      &__name {
+        font-size: 23px;
+      }
+
+      &__sub-name {
+        font-size: 20px;
+      }
+
+      &__about {
+
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
