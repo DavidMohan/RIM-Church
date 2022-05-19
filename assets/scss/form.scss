@@ -115,3 +115,22 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .form {
+    
+    &__right {
+
+      form {
+
+        margin: 0px 0px 0px 50px;
+        align-items: center;
+      }
+
+      &__submit {
+
+        margin: 20px 110px 0px 0px;
+      }
+    }
+  }
+}
